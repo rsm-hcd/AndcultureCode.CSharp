@@ -1,0 +1,14 @@
+{
+   "tasks": [
+      {
+         "command": "pnpx",
+         "args": [
+            "prettier",
+            "--ignore-unknown",
+            "--write",
+            "${staged}"
+         ],
+         "pathMode": "absolute"
+      }
+   ]
+}
